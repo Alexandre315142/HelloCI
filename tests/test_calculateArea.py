@@ -8,7 +8,7 @@ from src.calculateArea import areaSquare
 def test_areaSquare():
     """_summary_
     """
-    assert areaSquare(2.0) == 4.0
+    assert areaSquare(2) == 4.0
     assert areaSquare(2.5) == 6.25
 
 # validate negative param   
