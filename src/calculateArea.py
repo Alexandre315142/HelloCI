@@ -13,6 +13,6 @@ def areaSquare(length : float) -> float:
         float: area result
     """
     if not isinstance(length, float) or length <=0:
-        raise Exception("Check the parameter type please!")
+        raise TypeError("Check the parameter type please!")
     
     return length * length
